@@ -40,7 +40,7 @@ Developer ID 署名・公証済みのため、ダウンロード後そのまま�
 
 ## データシート
 
-EC 60268-17 規格準拠 99% 到達 300ms・オーバーシュート約 1.2%
+IEC 60268-17 規格準拠 99% 到達 300ms・オーバーシュート約 1.2%
 
 <img width="1600" height="1000" alt="needle_step_response" src="https://github.com/user-attachments/assets/1c1b3df0-121f-4adf-b30c-1dfb29524daf" />
 
