@@ -1,3 +1,4 @@
+<img width="403" height="105" alt="audio_meter" src="https://github.com/user-attachments/assets/fc813b04-24a0-4ced-a303-77138fe287b6" />
 # AudioMeter
 
 Mac から出ている音を、本物のアナログ VU メーターで表示するメニューバー常駐アプリです。
@@ -35,6 +36,8 @@ Developer ID 署名・公証済みのため、ダウンロード後そのまま�
 ## 背景
 
 このアプリは、1995 年に PowerPC Mac 向けに作った「AudioMeter 2.0」の現代版リライトです。当時の針の動き（立ち上がりは速く、下降はゆっくり）を、今の技術で標準 VU 規格に合わせて作り直しました。
+
+<img width="403" height="105" alt="audio_meter" src="https://github.com/user-attachments/assets/b0472162-a6b7-4bae-b0cf-bc4c3bd48e07" />
 
 ## ライセンス
 
