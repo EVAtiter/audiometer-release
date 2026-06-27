@@ -2,8 +2,7 @@
 
 Mac から出ている音を、本物のアナログ VU メーターで表示するメニューバー常駐アプリです。
 
-<!-- スクリーンショットは公開時に docs/screenshot.png として追加してください -->
-<!-- ![AudioMeter](docs/screenshot.png) -->
+![AudioMeter](docs/screenshot.png)
 
 ## 特長
 
