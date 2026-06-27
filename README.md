@@ -1,4 +1,3 @@
-<img width="403" height="105" alt="audio_meter" src="https://github.com/user-attachments/assets/fc813b04-24a0-4ced-a303-77138fe287b6" />
 # AudioMeter
 
 Mac から出ている音を、本物のアナログ VU メーターで表示するメニューバー常駐アプリです。
