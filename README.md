@@ -38,6 +38,12 @@ Developer ID 署名・公証済みのため、ダウンロード後そのまま�
 
 <img width="403" height="105" alt="audio_meter" src="https://github.com/user-attachments/assets/b0472162-a6b7-4bae-b0cf-bc4c3bd48e07" />
 
+## データシート
+
+EC 60268-17 規格準拠 99% 到達 300ms・オーバーシュート約 1.2%
+
+<img width="1600" height="1000" alt="needle_step_response" src="https://github.com/user-attachments/assets/1c1b3df0-121f-4adf-b30c-1dfb29524daf" />
+
 ## ライセンス
 
 Copyright © 1995–2026 EVA Titer. All rights reserved.
