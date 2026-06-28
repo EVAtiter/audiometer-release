@@ -50,7 +50,7 @@ This is a modern rewrite of "AudioMeter 2.0," which I originally wrote for Power
 
 Compliant with IEC 60268-17 — reaches 99% in 300 ms, overshoot approx. 1.2%
 
-<img width="1600" height="1000" alt="needle_step_response" src="https://github.com/user-attachments/assets/1c1b3df0-121f-4adf-b30c-1dfb29524daf" />
+![Needle step response](docs/needle_step_response_en.png)
 
 ## License
 
