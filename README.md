@@ -52,6 +52,10 @@ Compliant with IEC 60268-17 — reaches 99% in 300 ms, overshoot approx. 1.2%
 
 ![Needle step response](docs/needle_step_response_en.png)
 
+## Privacy
+
+The app collects no data and does not communicate over the internet. System audio is read only to compute volume levels for the meter — it is never recorded, stored, or transmitted. See the [Privacy Policy](PRIVACY.md) for details.
+
 ## License
 
 Copyright © 1995–2026 EVA Titer. All rights reserved.
