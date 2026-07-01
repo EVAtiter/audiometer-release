@@ -1,8 +1,12 @@
 [English](README.md) | [日本語](README.ja.md)
 
-# AudioMeter
+# Audio Meter VU
 
 Mac から出ている音を、本物のアナログ VU メーターで表示するメニューバー常駐アプリです。
+
+**➡️ [Mac App Store でダウンロード](https://apps.apple.com/app/audio-meter-vu/id6785263314)**
+
+> 本リポジトリはこれまで GitHub Releases / Homebrew で Developer ID 署名版を配布していましたが、この配布は終了しました。Audio Meter VU は現在、**Mac App Store のみ**で配布しています。本リポジトリは[プライバシーポリシー](PRIVACY.md)と過去のリリース履歴のために公開を継続しています。
 
 ![AudioMeter](docs/screenshot.png)
 
@@ -20,19 +24,20 @@ Mac から出ている音を、本物のアナログ VU メーターで表示す
 - macOS 15 Sequoia 以降
 - Apple Silicon（arm64）専用
 
+## 3.0.1 の変更点
+
+- **メモリリークを解消** — macOS 26.5 の SwiftUI 描画エンジンに起因し、メーターを表示し続けるとメモリが増え続ける問題がありました。描画を SwiftUI `Canvas` から AppKit `CALayer` + CoreGraphics へ書き換え、根本的に解消しました。
+- **CPU 使用率を大幅に削減** — 文字盤（静的な部分）を背景レイヤーにキャッシュし、針だけを毎フレーム描き直す構成に変更。60fps 時の CPU 使用率が約34% → **約2%** に低下しました。
+- **待機中は描画を完全に停止** — 一時停止・自動スリープ・非表示のときは、消灯した文字盤を描き続けるのではなく、再描画そのものを停止します（CPU 使用率 0%）。
+- アプリ名を **Audio Meter VU** に統一（About ダイアログ・Dock・メニューすべて）。
+
 ## インストール
 
-1. [Releases](https://github.com/EVAtiter/audiometer-release/releases) から最新の `AudioMeter-X.Y.Z.zip` をダウンロードします。
-2. 展開して `AudioMeter.app` を「アプリケーション」フォルダーへ移動します。
-3. 初回起動時に「システムの再生音を取得する」許可を求められます。許可してください（マイクではなく、再生音だけを取得します）。
+Mac App Store で配布しています：
 
-Homebrew をお使いの場合：
+**[Audio Meter VU をダウンロード](https://apps.apple.com/app/audio-meter-vu/id6785263314)**
 
-```
-brew install --cask EVAtiter/tap/audiometer
-```
-
-Developer ID 署名・公証済みのため、ダウンロード後そのまま起動できます。
+初回起動時に「システムの再生音を取得する」許可を求められます。許可してください（マイクではなく、再生音だけを取得します）。
 
 ## 使い方
 
