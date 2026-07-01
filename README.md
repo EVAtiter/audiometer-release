@@ -1,8 +1,12 @@
 [English](README.md) | [日本語](README.ja.md)
 
-# AudioMeter
+# Audio Meter VU
 
 A menu-bar app that displays your Mac's audio output on a real analog VU meter.
+
+**➡️ [Download on the Mac App Store](https://apps.apple.com/app/audio-meter-vu/id6785263314)**
+
+> This repository previously distributed a Developer ID–signed build via GitHub Releases and Homebrew. That distribution has been discontinued — Audio Meter VU is now available exclusively on the Mac App Store. This repo remains online for the [Privacy Policy](PRIVACY.md) and release history.
 
 ![AudioMeter](docs/screenshot.png)
 
@@ -20,19 +24,20 @@ A menu-bar app that displays your Mac's audio output on a real analog VU meter.
 - macOS 15 Sequoia or later
 - Apple Silicon (arm64) only
 
+## What's new in 3.0.1
+
+- **Fixed a memory leak** — a macOS 26.5 SwiftUI rendering-engine issue caused memory to grow continuously while the meter was displayed. Rendering was rewritten from SwiftUI `Canvas` to AppKit `CALayer` + CoreGraphics, which eliminates it entirely.
+- **CPU usage cut dramatically** — the dial face (static) is now cached to a background layer, and only the needle is redrawn each frame. Measured CPU at 60fps dropped from ~34% to **~2%**.
+- **Drawing fully stops while idle** — when paused, in auto-sleep, or hidden, the redraw timer stops completely (0% CPU), instead of continuing to draw a dimmed dial in the background.
+- Renamed to **Audio Meter VU** consistently across the About dialog, Dock, and menus.
+
 ## Installation
 
-1. Download the latest `AudioMeter-X.Y.Z.zip` from [Releases](https://github.com/EVAtiter/audiometer-release/releases).
-2. Unzip it and move `AudioMeter.app` to your Applications folder.
-3. On first launch you'll be asked to allow capturing system audio. Please allow it (it captures playback audio only, not the microphone).
+Available on the Mac App Store:
 
-Or with Homebrew:
+**[Download Audio Meter VU](https://apps.apple.com/app/audio-meter-vu/id6785263314)**
 
-```
-brew install --cask EVAtiter/tap/audiometer
-```
-
-The app is Developer ID signed and notarized, so it runs right after download.
+On first launch you'll be asked to allow capturing system audio. Please allow it (it captures playback audio only, not the microphone).
 
 ## Usage
 
