@@ -1,6 +1,6 @@
 # Privacy Policy / プライバシーポリシー
 
-**Last updated / 最終更新日: 2026-06-29**
+**Last updated / 最終更新日: 2026-11-05**
 
 ---
 
@@ -41,7 +41,7 @@ Audio Meter VU（以下「本アプリ」）は、ユーザーのプライバシ
 
 本アプリは、以下の情報をお使いの Mac 上（UserDefaults / サンドボックスコンテナ）のみに保存します。これらは外部に送信されません。
 
-- 表示モード（通常 / 最前面 / デスクトップに常駐）
+- 表示の設定（常に最前面 / 壁紙に貼り付ける / 画面下端で呼び出す / メーターサイズ）
 - メーターウィンドウの位置・表示するディスプレイ
 - 「再生に追従（自動スリープ）」などの UI 設定
 
@@ -113,7 +113,7 @@ In other words, the App performs a transient level measurement for a volume mete
 
 The App stores the following information only on your Mac (UserDefaults / sandbox container). None of it is transmitted externally.
 
-- Display mode (normal / always-on-top / on the desktop)
+- Display settings (Always on Top / Pin to Wallpaper / Quick Reveal / meter size)
 - Meter window position and which display it appears on
 - UI preferences such as "Follow playback (auto-sleep)"
 
