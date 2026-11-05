@@ -69,10 +69,9 @@ Audio Meter VU（以下「本アプリ」）は、ユーザーのプライバシ
 
 ### 9. お問い合わせ
 
-ご質問・ご意見は GitHub Discussions または Email までお願いします:
+ご質問・ご意見は GitHub Discussions までお願いします:
 
 - GitHub Discussions: https://github.com/EVAtiter/audiometer-release/discussions
-- Email: info@slack-kingdom.com
 
 ---
 
@@ -141,7 +140,6 @@ This policy may be revised without prior notice. When changes are made, the "Las
 
 ### 9. Contact
 
-For questions or feedback, please use GitHub Discussions or Email:
+For questions or feedback, please use GitHub Discussions:
 
 - GitHub Discussions: https://github.com/EVAtiter/audiometer-release/discussions
-- Email: info@slack-kingdom.com
