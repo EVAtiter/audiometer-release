@@ -6,8 +6,6 @@ Mac から出ている音を、本物のアナログ VU メーターで表示す
 
 **➡️ [Mac App Store でダウンロード](https://apps.apple.com/app/audio-meter-vu/id6785263314)**
 
-> 本リポジトリはこれまで GitHub Releases / Homebrew で Developer ID 署名版を配布していましたが、この配布は終了しました。Audio Meter VU は現在、**Mac App Store のみ**で配布しています。本リポジトリは[プライバシーポリシー](PRIVACY.md)のために公開を継続しています。
-
 ![AudioMeter](docs/screenshot.png)
 
 ## 特長
