@@ -6,8 +6,6 @@ A menu-bar app that displays your Mac's audio output on a real analog VU meter.
 
 **➡️ [Download on the Mac App Store](https://apps.apple.com/app/audio-meter-vu/id6785263314)**
 
-> This repository previously distributed a Developer ID–signed build via GitHub Releases and Homebrew. That distribution has been discontinued — Audio Meter VU is now available exclusively on the Mac App Store. This repo remains online for the [Privacy Policy](PRIVACY.md).
-
 ![AudioMeter](docs/screenshot.png)
 
 ## Features
